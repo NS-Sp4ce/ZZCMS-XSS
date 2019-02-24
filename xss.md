@@ -93,7 +93,9 @@ He/She will be see a alert window which said **/xss/**
 
 ![](https://i.imgur.com/MtBdViP.png)
 
+And the database is displayed as follows
 
+![](https://i.imgur.com/Vt2YN9X.png)
 
 Payload:`url/to/zzmcs/user/ask.php?do=modify&page=1&id=1&aaa=<sCrIpT>alert(/xss/)</ScRiPt>`
 
